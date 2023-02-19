@@ -228,9 +228,8 @@
     </main>
 
     <!-- footer -->
-    
-    <!-- Footer Logo -->
 
+    <!-- Footer Logo -->
     <footer class="foot">
         <div class="container cont-foot">
             <div class="logo-footer">
@@ -280,15 +279,18 @@
             <!-- Footer Subscribe -->
             <div class="subscribe">
                 <p class="soc-text">Subscribe</p>
-                <div class="subscribe-input">
-                    <label for="Subscribe"></label>
-                    <input type="text" name="Subscribe" placeholder="E-mail">
+                <form class="subscribe-input">
+                    <label class="form-email">
+                        <input class="form-email-input" type="email" name="Subscribe" placeholder="E-mail" required>
+                    </label>
+
                     <button class="subscribe-btn" type="submit">Subscribe
                         <svg class="svg-tg" width="24px" height="24px">
                             <use href="./images/icons.svg#icon-tg"></use>
                         </svg>
                     </button>
-                </div>
+                </form>
+
             </div>
         </div>
     </footer>
